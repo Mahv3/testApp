@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 async function getDetailBBSData(id: number) {
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3000";
+  const apiUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "http://localhost:3000";
   const response = await fetch(`${apiUrl}/api/post`, {
     cache: "no-store",
   });
