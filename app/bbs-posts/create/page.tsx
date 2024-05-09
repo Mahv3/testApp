@@ -1,7 +1,7 @@
 "use client";
 
 import { postBBS } from "@/app/actions/postBBSAction";
-import { formSchema } from "@/app/types/schemas";
+import { formSchema } from "../../types/schemas";
 import { Button } from "@/components/ui/button";
 import {
   Form,
